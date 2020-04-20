@@ -8,24 +8,85 @@ body {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
-/*---------------------------Colours*/
+/*---------------------------Colors*/
 
 .ui-menu-color-section1 {
-    background-color: #e67e22;
+    background-color: #c5b800;
+    height:inherit;
+
 }
 
 .ui-menu-color-section2 {
-    background-color: #e67e22;
+    background-color: #c5b800;
+    height:inherit;
 }
 
 .ui-menu-color-section3 {
-    background-color: #e67e22;
+    background-color: #c5b800;
+    height:inherit;
 }
 
 .ui-menu-color-section4 {
-    background-color: #e67e22;
+    background-color: #c5b800;
+    height:inherit;
 }
 
+/*-------------------------------------Navbar*/
+
+
+.navbar {
+    border: 0;
+    margin: 10px;
+}
+
+#navbar_sections a {
+    color: inherit;
+}
+
+#navbar_sections a:hover{
+    background-color: transparent;
+    color: black;
+}
+
+/*-------------------------------------Text*/
+
+h1, h2, h3, h4, h5, p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+
+/*-------------------------------------Three Reason*/
+
+.three-reasons {
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+
+.three-reasons div {
+    padding: 10px;
+    height: 100px;
+}
+
+.food {
+    background-color: rgba(0, 85, 182, 0.87)
+}
+
+.training {
+    background-color: #c5b800;
+}
+
+.sleep {
+    background-color: rgba(0, 85, 182, 0.87)
+}
+
+/*-------------------------------------Sign-up*/
 /* Full-width input fields */
 input[type=text], input[type=password] {
   width: 100%;
